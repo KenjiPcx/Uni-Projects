@@ -1,3 +1,6 @@
+# Preview
+![MazeSolverPreview](https://user-images.githubusercontent.com/56083944/117034418-de564600-ad35-11eb-9386-7e59fb23bb75.jpg)
+
 # Where do I put my files?
 
 You should store all of your Java source files in the `src` directory, or subdirectories within the `src` directory.
