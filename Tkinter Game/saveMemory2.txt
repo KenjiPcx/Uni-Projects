@@ -1,9 +1,0 @@
-floor:29
-level:10
-mobMaxLvl:7
-miniBossCtr:2
-bossCtr:2
-scoreThisRnd:1025
-AngelLevel:10
-HolyEnergy:999
-Bindings:['<Up>', '<Left>', '<Down>', '<Right>', 'q', 'w', 'e', 'r', 't', 'a', 's', 'd', 'p', 'b', 'c']
