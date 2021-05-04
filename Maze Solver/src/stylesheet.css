@@ -1,0 +1,93 @@
+#sidebar{
+    -fx-background-color: rgb(156, 90, 43);
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+
+#root, #botbar{
+    -fx-background-color: rgb(238, 148, 83);
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+
+#sideRectangles{
+	-fx-border-color: black; 
+	-fx-border-width: 2;
+	-fx-background-color: rgb(255, 255, 255);
+}
+
+.button:focused{
+	-fx-effect: dropshadow(gaussian, #b4d1f3, 3, 3, 0, 0);
+}
+
+.button, .menuItem{
+	-fx-font-size: 14;
+	-fx-font-weight: bold;
+	-fx-background-radius: 4;
+	-fx-border-radius: 4;
+	-fx-pref-height: 30;
+	-fx-min-width: 30;
+	-fx-background-insets: 0, 0, -1, 0;
+	-fx-background-color: white;
+	-fx-border-color: #cccccc;
+	-fx-text-fill: #000000;
+}
+
+.button:pressed {
+	-fx-background-color: #e6e6e6;
+	-fx-border-color: #acacac;
+	-fx-effect: innershadow(gaussian, #adadad, 10, 0, 0, 3);
+}
+
+.button:hover, .choice-box:hover {
+	-fx-background-color: #e6e6e6;
+	-fx-border-color: #acacac;
+}
+
+.menu-bar {
+	-fx-background-color: white;
+}
+.menu-bar > .container > .menu-button {
+	-fx-background-radius: 0;
+	-fx-background-insets: 0;
+	-fx-border-width: 0;
+	-fx-border-radius: 0;
+}
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:showing {
+	-fx-background-color: #56c0e0;
+}
+
+.menu-item {
+	-fx-min-width: 200;
+}
+
+.menu-item:focused {
+	-fx-background-color: #f5f5f5;
+}
+
+.menu-item:focused > * {
+	-fx-text-fill: #262626;
+}
+.menu-item:focused .arrow {
+	-fx-background-color: #333333;
+}
+
+.choice-box:pressed > .arrow-button,.choice-box:selected > .arrow-button,
+.button:pressed, .button:selected,.menu-button:pressed,.menu-button:selected{
+	-fx-background-color: #e6e6e6;
+	-fx-border-color: #acacac;
+	-fx-effect: innershadow(gaussian, #adadad, 10, 0, 0, 3);
+}
+
+.combo-box, .choice-box {
+	-fx-background-insets: 0;
+	-fx-border-color: #cecece;
+	-fx-padding: -1;
+	-fx-border-width: 1;
+}
+.combo-box, .choice-box, .color-picker, .date-picker {
+	-fx-border-radius: 4;
+	-fx-background-radius: 4;
+	-fx-pref-height: 30;
+}
