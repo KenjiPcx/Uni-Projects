@@ -17,7 +17,6 @@ public class MazeGraphics extends GridPane {
 
     /**
      * Initializes an instance of graphics and apply them to the given layout
-     * @param s: String representation of Maze
      */
     public MazeGraphics() {
         super();
